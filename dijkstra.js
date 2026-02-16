@@ -1,5 +1,19 @@
 const readline = require("readline");
 
+// interface Node {
+//   name: string;
+//   value: number;
+// }
+
+// interface Edge {
+//   node: Node;
+//   weight: number;
+// }
+
+// interface Graph {
+//   [nodeName: string]: Edge[];
+// }
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
