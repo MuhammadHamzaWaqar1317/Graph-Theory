@@ -27,6 +27,21 @@ function ask(query) {
   return new Promise((resolve) => rl.question(query, resolve));
 }
 
+// interface Node {
+//   name: string;
+//   distance: number; // shortest distance from source
+// }
+
+// interface Edge {
+//   src: string;      // source node name
+//   dest: string;     // destination node name
+//   weight: number;   // edge weight (can be negative)
+// }
+
+// interface Graph {
+//   [nodeName: string]: Edge[]; // adjacency list representation
+// }
+
 async function main() {
   console.log("\n--- Bellman-Ford Algorithm ---\n");
 
